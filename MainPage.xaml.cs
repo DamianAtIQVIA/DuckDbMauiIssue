@@ -19,6 +19,7 @@ public partial class MainPage : ContentPage
 		}
 		catch (Exception exception)
 		{
+			Console.WriteLine(exception);
 			ExceptionLabel.Text = exception.ToString();
 		}
 	}
